@@ -250,13 +250,6 @@ We welcome contributions from cybersecurity practitioners, risk analysts, data s
 - **Format Consistency**: Follow the existing markdown structure and emoji conventions.
 - **Objectivity**: Avoid promotional language; focus on factual, neutral descriptions.
 - **Sources**: Link to official product pages and documentation when available.
-
----
-
-## ⭐ Star History
-
-<!-- Add star history chart here if desired -->
-
 ---
 
 ## ⚠️ Disclaimer
