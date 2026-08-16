@@ -1,205 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="auto" style="max-width: 100%; margin: 0 0 30px 0;">
-  <defs>
-    <!-- Background Gradients -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070b14"/>
-      <stop offset="50%" stop-color="#0c1527"/>
-      <stop offset="100%" stop-color="#09101f"/>
-    </linearGradient>
+# 🔐 Awesome Cyber Risk Quantification
 
-    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#4facfe" stop-opacity="0.9"/>
-    </linearGradient>
+<div align="center">
 
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="50%" stop-color="#818cf8"/>
-      <stop offset="100%" stop-color="#c084fc"/>
-    </linearGradient>
+**A comprehensive, curated index of Cyber Risk Quantification (CRQ) platforms, frameworks, and resources**
 
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75"/>
-      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85"/>
-    </linearGradient>
+<br/>
 
-    <linearGradient id="curveGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0"/>
-    </linearGradient>
+### Measuring Information Security Risks in Financial Terms
 
-    <!-- Filters for Glow Effects -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-August%202026-blue.svg)](README.md)
 
-    <filter id="glow-subtle" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
+<br/>
 
-    <!-- Dynamic CSS Keyframes -->
-    <style>
-      @keyframes pulseGrid {
-        0%, 100% { opacity: 0.12; }
-        50% { opacity: 0.28; }
-      }
-      @keyframes radarSweep {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
-      @keyframes waveFloat {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-7px); }
-      }
-      @keyframes glowPulse {
-        0%, 100% { filter: drop-shadow(0 0 4px rgba(56, 189, 248, 0.4)); }
-        50% { filter: drop-shadow(0 0 16px rgba(56, 189, 248, 0.85)); }
-      }
-      @keyframes dashAnim {
-        to { stroke-dashoffset: -1000; }
-      }
-      @keyframes badgePulse {
-        0%, 100% { transform: scale(1); }
-        50% { transform: scale(1.025); }
-      }
+#### 🎯 FAIR Methodology • 🎲 Monte Carlo Simulations • 💰 Financial Loss Modeling • 📊 Executive Risk Reports
 
-      .grid-lines { animation: pulseGrid 6s ease-in-out infinite; }
-      .radar-arm { transform-origin: 1040px 180px; animation: radarSweep 10s linear infinite; }
-      .floating-curve { animation: waveFloat 5s ease-in-out infinite; }
-      .pulsing-glow { animation: glowPulse 4s ease-in-out infinite; }
-      .animated-dash { stroke-dasharray: 8, 8; animation: dashAnim 25s linear infinite; }
-      .badge-anim-1 { transform-origin: 180px 290px; animation: badgePulse 4s ease-in-out infinite; }
-      .badge-anim-2 { transform-origin: 430px 290px; animation: badgePulse 4s ease-in-out 1s infinite; }
-      .badge-anim-3 { transform-origin: 670px 290px; animation: badgePulse 4s ease-in-out 2s infinite; }
-      .badge-anim-4 { transform-origin: 900px 290px; animation: badgePulse 4s ease-in-out 3s infinite; }
-    </style>
-  </defs>
-
-  <!-- Background Base -->
-  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)"/>
-  <rect width="1200" height="360" rx="16" fill="none" stroke="#334155" stroke-width="1.5"/>
-
-  <!-- Cyber Matrix Background Grid -->
-  <g class="grid-lines" stroke="#38bdf8" stroke-width="0.8" stroke-opacity="0.2">
-    <line x1="60" y1="0" x2="60" y2="360"/>
-    <line x1="160" y1="0" x2="160" y2="360"/>
-    <line x1="260" y1="0" x2="260" y2="360"/>
-    <line x1="360" y1="0" x2="360" y2="360"/>
-    <line x1="460" y1="0" x2="460" y2="360"/>
-    <line x1="560" y1="0" x2="560" y2="360"/>
-    <line x1="660" y1="0" x2="660" y2="360"/>
-    <line x1="760" y1="0" x2="760" y2="360"/>
-    <line x1="860" y1="0" x2="860" y2="360"/>
-    <line x1="960" y1="0" x2="960" y2="360"/>
-    <line x1="1060" y1="0" x2="1060" y2="360"/>
-    <line x1="1160" y1="0" x2="1160" y2="360"/>
-
-    <line x1="0" y1="60" x2="1200" y2="60"/>
-    <line x1="0" y1="120" x2="1200" y2="120"/>
-    <line x1="0" y1="180" x2="1200" y2="180"/>
-    <line x1="0" y1="240" x2="1200" y2="240"/>
-    <line x1="0" y1="300" x2="1200" y2="300"/>
-  </g>
-
-  <!-- Right Side Cyber Risk Radar Target -->
-  <g opacity="0.85">
-    <circle cx="1040" cy="180" r="130" fill="none" stroke="#1e293b" stroke-width="1.5"/>
-    <circle cx="1040" cy="180" r="100" fill="none" stroke="#334155" stroke-width="1.2" stroke-dasharray="4,4"/>
-    <circle cx="1040" cy="180" r="70" fill="none" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
-    <circle cx="1040" cy="180" r="40" fill="none" stroke="#818cf8" stroke-width="1" stroke-opacity="0.6"/>
-    <circle cx="1040" cy="180" r="6" fill="#38bdf8" filter="url(#glow)"/>
-    <line x1="910" y1="180" x2="1170" y2="180" stroke="#334155" stroke-width="1"/>
-    <line x1="1040" y1="50" x2="1040" y2="310" stroke="#334155" stroke-width="1"/>
-
-    <!-- Rotating Radar Scanner Beam -->
-    <g class="radar-arm">
-      <line x1="1040" y1="180" x2="1165" y2="180" stroke="#38bdf8" stroke-width="2.5" filter="url(#glow)"/>
-      <path d="M 1040 180 L 1160 150 A 130 130 0 0 1 1165 180 Z" fill="#38bdf8" fill-opacity="0.15"/>
-    </g>
-
-    <!-- Radar Threat / Asset Points -->
-    <circle cx="1010" cy="130" r="4" fill="#ef4444" filter="url(#glow)"/>
-    <circle cx="1090" cy="145" r="3.5" fill="#f59e0b" filter="url(#glow)"/>
-    <circle cx="1065" cy="225" r="4" fill="#10b981" filter="url(#glow)"/>
-    <circle cx="985" cy="205" r="3" fill="#38bdf8" filter="url(#glow)"/>
-  </g>
-
-  <!-- Monte Carlo Probability Density Wave Graphic in Background -->
-  <g class="floating-curve">
-    <!-- Area Fill Under Curve -->
-    <path d="M 40 230 Q 180 230 280 190 T 480 120 T 680 180 T 880 210 T 1160 230 L 1160 250 L 40 250 Z" fill="url(#curveGrad)"/>
-    <!-- Glowing Loss Exceedance Curve Stroke -->
-    <path class="pulsing-glow animated-dash" d="M 40 230 Q 180 230 280 190 T 480 120 T 680 180 T 880 210 T 1160 230" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
-  </g>
-
-  <!-- Main Title Area -->
-  <g transform="translate(60, 48)">
-    <!-- Top Pill Category Badge -->
-    <rect x="0" y="0" width="345" height="30" rx="15" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.7"/>
-    <circle cx="14" cy="15" r="4" fill="#10b981" filter="url(#glow)"/>
-    <text x="28" y="20" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" letter-spacing="1">
-      CYBER RISK QUANTIFICATION (CRQ) ECOSYSTEM
-    </text>
-
-    <!-- Main Headline -->
-    <text x="0" y="78" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5">
-      Awesome <tspan fill="url(#cyanGlow)">Cyber Risk</tspan> Quantification
-    </text>
-
-    <!-- Subtitle -->
-    <text x="0" y="112" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="400">
-      FAIR Methodology • Monte Carlo Loss Modeling • Cyber VaR • Continuous Risk Scoring
-    </text>
-
-    <!-- Secondary descriptive line -->
-    <text x="0" y="136" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="400">
-      Translating technical cyber threats &amp; exposures into defensible financial exposure metrics for CISOs &amp; Boards.
-    </text>
-  </g>
-
-  <!-- Feature & Core Concept Metric Cards (Bottom Row) -->
-  <!-- Card 1: Open FAIR Standard -->
-  <g class="badge-anim-1" transform="translate(60, 266)">
-    <rect width="210" height="60" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2"/>
-    <rect x="12" y="14" width="32" height="32" rx="6" fill="#0284c7" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1"/>
-    <text x="28" y="35" fill="#38bdf8" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">🎯</text>
-    <text x="54" y="29" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">Open FAIR™ Model</text>
-    <text x="54" y="47" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">Standardized Loss Taxonomy</text>
-  </g>
-
-  <!-- Card 2: Monte Carlo Simulation -->
-  <g class="badge-anim-2" transform="translate(290, 266)">
-    <rect width="215" height="60" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2"/>
-    <rect x="12" y="14" width="32" height="32" rx="6" fill="#6366f1" fill-opacity="0.2" stroke="#818cf8" stroke-width="1"/>
-    <text x="28" y="35" fill="#818cf8" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">🎲</text>
-    <text x="54" y="29" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">Monte Carlo Sim</text>
-    <text x="54" y="47" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">Probabilistic ALE &amp; VaR</text>
-  </g>
-
-  <!-- Card 3: Exposure & Threat Prioritization -->
-  <g class="badge-anim-3" transform="translate(525, 266)">
-    <rect width="220" height="60" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2"/>
-    <rect x="12" y="14" width="32" height="32" rx="6" fill="#10b981" fill-opacity="0.2" stroke="#34d399" stroke-width="1"/>
-    <text x="28" y="35" fill="#34d399" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">⚡</text>
-    <text x="54" y="29" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">Continuous CTEM</text>
-    <text x="54" y="47" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">Automated Asset &amp; TPRM Risk</text>
-  </g>
-
-  <!-- Card 4: Board-Ready Reporting -->
-  <g class="badge-anim-4" transform="translate(765, 266)">
-    <rect width="220" height="60" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2"/>
-    <rect x="12" y="14" width="32" height="32" rx="6" fill="#f59e0b" fill-opacity="0.2" stroke="#fbbf24" stroke-width="1"/>
-    <text x="28" y="35" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">📊</text>
-    <text x="54" y="29" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">Board &amp; CISO ROI</text>
-    <text x="54" y="47" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">Defensible Dollar Exposure</text>
-  </g>
-</svg>
+</div>
 
 ---
 
-**Cyber Risk Quantification (CRQ)** is the discipline of measuring information security risks in objective, financial terms rather than ordinal "High/Medium/Low" heat maps. By leveraging standardized quantitative frameworks such as **Open FAIR™ (Factor Analysis of Information Risk)**, **Monte Carlo simulations**, **Loss Exceedance Curves (LEC)**, and continuous threat intelligence, CRQ enables CISOs, risk officers, and enterprise boards to:
+## 💡 What is Cyber Risk Quantification?
+
+**Cyber Risk Quantification (CRQ)** is the discipline of measuring information security risks in objective, financial terms rather than ordinal "High/Medium/Low" heat maps. By leveraging standardized quantitative frameworks such as **Open FAIR™ (Factor Analysis of Information Risk)**, **Monte Carlo simulations**, **Loss Exceedance Curves (LEC)**, and continuous threat intelligence, CRQ enables CISOs, risk officers, and enterprise boards to: By leveraging standardized quantitative frameworks such as **Open FAIR™ (Factor Analysis of Information Risk)**, **Monte Carlo simulations**, **Loss Exceedance Curves (LEC)**, and continuous threat intelligence, CRQ enables CISOs, risk officers, and enterprise boards to:
 
 - 💵 Calculate **Annualized Loss Expectancy (ALE)** and **Cyber Value at Risk (VaR)** in dollars.
 - 🎯 Prioritize security investments based on measurable risk reduction and Return on Security Investment (ROSI).
