@@ -282,7 +282,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👥 Authors & Contributors
 
-- **Original Curator**: [Your Name]
+- **Original Curator**: JAGAN M
 - **Contributors**: See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
